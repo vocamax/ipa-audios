@@ -1,0 +1,204 @@
+{
+    "accent": "en-US",
+    "changes": "Cut to the sound (about 0.1 s of silence before it, 0.2 s after), loudness normalized (mean −20 dBFS), peak-limited, 20 ms fade-in and 60 ms fade-out, mono MP3 96 kbps with the credit in the ID3 tags.",
+    "sounds": {
+        "ih": {
+            "ipa": "ɪ",
+            "file": "sounds/ih.mp3",
+            "sha1": "55d7c8a6872cb2b1db99b9091dd41a55a21e127c",
+            "source": "youtube-vzaY6tkqhjg",
+            "title": "Learn IPA - American English - Vowels",
+            "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=42s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                42.44,
+                43.23
+            ]
+        },
+        "iy": {
+            "ipa": "iː",
+            "file": "sounds/iy.mp3",
+            "sha1": "67852d1cb520a31193d2d0127acbc13c582d100c",
+            "source": "youtube-vzaY6tkqhjg",
+            "title": "Learn IPA - American English - Vowels",
+            "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=117s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                117.8,
+                118.58
+            ]
+        },
+        "eh": {
+            "ipa": "e",
+            "file": "sounds/eh.mp3",
+            "sha1": "6c34b62d0b8e5e35db0930ef5aa3d25fc680bb86",
+            "source": "youtube-vzaY6tkqhjg",
+            "title": "Learn IPA - American English - Vowels",
+            "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=115s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                115.89,
+                116.55
+            ]
+        },
+        "ae": {
+            "ipa": "æ",
+            "file": "sounds/ae.mp3",
+            "sha1": "6c7c54a95403d3c0ed26bf99e5e885e3d0f3ea16",
+            "source": "youtube-vzaY6tkqhjg",
+            "title": "Learn IPA - American English - Vowels",
+            "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=53s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                53.87,
+                54.6
+            ]
+        },
+        "ah": {
+            "ipa": "ʌ",
+            "file": "sounds/ah.mp3",
+            "sha1": "14466ba34e953923adfe2253778e47af8921fec6",
+            "source": "youtube-vzaY6tkqhjg",
+            "title": "Learn IPA - American English - Vowels",
+            "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=123s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                123.66,
+                124.31
+            ]
+        },
+        "aa": {
+            "ipa": "ɑː",
+            "file": "sounds/aa.mp3",
+            "sha1": "b266bbfcceb331b926b13ce8703b9b34a463787c",
+            "source": "youtube-vzaY6tkqhjg",
+            "title": "Learn IPA - American English - Vowels",
+            "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=5s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                5.45,
+                6.48
+            ]
+        },
+        "ao": {
+            "ipa": "ɔː",
+            "file": "sounds/ao.mp3",
+            "sha1": "dbb92e202f6bf7fe77553b5b2ec5a6e692dd760d",
+            "source": "youtube-vzaY6tkqhjg",
+            "title": "Learn IPA - American English - Vowels",
+            "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=114s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                114.02,
+                114.72
+            ]
+        },
+        "uh": {
+            "ipa": "ʊ",
+            "file": "sounds/uh.mp3",
+            "sha1": "6ba4fdcddac69a05d5702bb13e11895a0af35bfe",
+            "source": "youtube-vzaY6tkqhjg",
+            "title": "Learn IPA - American English - Vowels",
+            "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=127s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                127.69,
+                128.32
+            ]
+        },
+        "uw": {
+            "ipa": "uː",
+            "file": "sounds/uw.mp3",
+            "sha1": "ea9cae904864e749458ebadf5fdeea1b2ac40f76",
+            "source": "youtube-vzaY6tkqhjg",
+            "title": "Learn IPA - American English - Vowels",
+            "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=131s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                131.62,
+                132.38
+            ]
+        },
+        "ax": {
+            "ipa": "ə",
+            "file": "sounds/ax.mp3",
+            "sha1": "d349ff904992cd9ff4b7640458271988cf6b39dd",
+            "source": "youtube-vzaY6tkqhjg",
+            "title": "Learn IPA - American English - Vowels",
+            "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=125s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                125.68,
+                126.12
+            ]
+        },
+        "er": {
+            "ipa": "ɝː",
+            "file": "sounds/er.mp3",
+            "sha1": "5899180faa1881b9a4ee480c5f25dff59bc6a06e",
+            "source": "youtube-vzaY6tkqhjg",
+            "title": "Learn IPA - American English - Vowels",
+            "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=129s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                129.6,
+                130.34
+            ]
+        }
+    }
+}

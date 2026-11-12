@@ -1,0 +1,406 @@
+{
+    "accent": "en-US",
+    "sounds": [
+        {
+            "key": "p",
+            "ipa": "p",
+            "group": "consonant",
+            "examples": [
+                "pen",
+                "pig",
+                "cup"
+            ]
+        },
+        {
+            "key": "b",
+            "ipa": "b",
+            "group": "consonant",
+            "examples": [
+                "bag",
+                "bed",
+                "ball"
+            ]
+        },
+        {
+            "key": "t",
+            "ipa": "t",
+            "group": "consonant",
+            "examples": [
+                "tea",
+                "ten",
+                "tie"
+            ]
+        },
+        {
+            "key": "d",
+            "ipa": "d",
+            "group": "consonant",
+            "examples": [
+                "dog",
+                "door",
+                "duck"
+            ]
+        },
+        {
+            "key": "k",
+            "ipa": "k",
+            "group": "consonant",
+            "examples": [
+                "key",
+                "car",
+                "cake"
+            ]
+        },
+        {
+            "key": "g",
+            "ipa": "ɡ",
+            "group": "consonant",
+            "examples": [
+                "goat",
+                "girl",
+                "egg"
+            ]
+        },
+        {
+            "key": "m",
+            "ipa": "m",
+            "group": "consonant",
+            "examples": [
+                "moon",
+                "milk",
+                "mouse"
+            ]
+        },
+        {
+            "key": "n",
+            "ipa": "n",
+            "group": "consonant",
+            "examples": [
+                "nose",
+                "nine",
+                "net"
+            ]
+        },
+        {
+            "key": "f",
+            "ipa": "f",
+            "group": "consonant",
+            "examples": [
+                "fish",
+                "fan",
+                "leaf"
+            ]
+        },
+        {
+            "key": "v",
+            "ipa": "v",
+            "group": "consonant",
+            "examples": [
+                "van",
+                "video",
+                "glove"
+            ]
+        },
+        {
+            "key": "s",
+            "ipa": "s",
+            "group": "consonant",
+            "examples": [
+                "bus",
+                "sun",
+                "sock"
+            ]
+        },
+        {
+            "key": "z",
+            "ipa": "z",
+            "group": "consonant",
+            "examples": [
+                "zoo",
+                "zebra",
+                "rose"
+            ]
+        },
+        {
+            "key": "hh",
+            "ipa": "h",
+            "group": "consonant",
+            "examples": [
+                "hat",
+                "horse",
+                "hand"
+            ]
+        },
+        {
+            "key": "l",
+            "ipa": "l",
+            "group": "consonant",
+            "examples": [
+                "lion",
+                "leg",
+                "lamp"
+            ]
+        },
+        {
+            "key": "w",
+            "ipa": "w",
+            "group": "consonant",
+            "examples": [
+                "window",
+                "watch",
+                "wall"
+            ]
+        },
+        {
+            "key": "y",
+            "ipa": "j",
+            "group": "consonant",
+            "examples": [
+                "yellow",
+                "yogurt",
+                "unicorn"
+            ]
+        },
+        {
+            "key": "th",
+            "ipa": "θ",
+            "group": "consonant",
+            "examples": [
+                "thumb",
+                "three",
+                "mouth"
+            ]
+        },
+        {
+            "key": "dh",
+            "ipa": "ð",
+            "group": "consonant",
+            "examples": [
+                "mother",
+                "father",
+                "feather"
+            ]
+        },
+        {
+            "key": "sh",
+            "ipa": "ʃ",
+            "group": "consonant",
+            "examples": [
+                "shoe",
+                "shell",
+                "shark"
+            ]
+        },
+        {
+            "key": "zh",
+            "ipa": "ʒ",
+            "group": "consonant",
+            "examples": [
+                "television",
+                "treasure",
+                "beige"
+            ]
+        },
+        {
+            "key": "ch",
+            "ipa": "tʃ",
+            "group": "consonant",
+            "examples": [
+                "cheese",
+                "chair",
+                "chicken"
+            ]
+        },
+        {
+            "key": "jh",
+            "ipa": "dʒ",
+            "group": "consonant",
+            "examples": [
+                "juice",
+                "jacket",
+                "orange"
+            ]
+        },
+        {
+            "key": "r",
+            "ipa": "r",
+            "group": "consonant",
+            "examples": [
+                "red",
+                "rabbit",
+                "rain"
+            ]
+        },
+        {
+            "key": "ng",
+            "ipa": "ŋ",
+            "group": "consonant",
+            "examples": [
+                "ring",
+                "king",
+                "swing"
+            ]
+        },
+        {
+            "key": "ih",
+            "ipa": "ɪ",
+            "group": "vowel",
+            "examples": [
+                "lips",
+                "chick",
+                "hill"
+            ]
+        },
+        {
+            "key": "iy",
+            "ipa": "iː",
+            "group": "vowel",
+            "examples": [
+                "bee",
+                "tree",
+                "sheep"
+            ]
+        },
+        {
+            "key": "eh",
+            "ipa": "e",
+            "group": "vowel",
+            "examples": [
+                "desk",
+                "bell",
+                "nest"
+            ]
+        },
+        {
+            "key": "ae",
+            "ipa": "æ",
+            "group": "vowel",
+            "examples": [
+                "apple",
+                "ant",
+                "cat"
+            ]
+        },
+        {
+            "key": "ah",
+            "ipa": "ʌ",
+            "group": "vowel",
+            "examples": [
+                "bug",
+                "drum",
+                "nut"
+            ]
+        },
+        {
+            "key": "aa",
+            "ipa": "ɑː",
+            "group": "vowel",
+            "examples": [
+                "box",
+                "clock",
+                "doll"
+            ]
+        },
+        {
+            "key": "ao",
+            "ipa": "ɔː",
+            "group": "vowel",
+            "examples": [
+                "ball",
+                "wall",
+                "saw"
+            ]
+        },
+        {
+            "key": "uh",
+            "ipa": "ʊ",
+            "group": "vowel",
+            "examples": [
+                "foot",
+                "cook",
+                "wolf"
+            ]
+        },
+        {
+            "key": "uw",
+            "ipa": "uː",
+            "group": "vowel",
+            "examples": [
+                "spoon",
+                "boot",
+                "glue"
+            ]
+        },
+        {
+            "key": "ax",
+            "ipa": "ə",
+            "group": "vowel",
+            "examples": [
+                "lemon",
+                "banana",
+                "sofa"
+            ]
+        },
+        {
+            "key": "er",
+            "ipa": "ɝː",
+            "group": "vowel",
+            "examples": [
+                "bird",
+                "nurse",
+                "shirt"
+            ],
+            "note": "One file for /ɝː/ and /ɚ/: the stressed /ɝː/."
+        },
+        {
+            "key": "ey",
+            "ipa": "eɪ",
+            "group": "diphthong",
+            "examples": [
+                "snake",
+                "plane",
+                "whale"
+            ]
+        },
+        {
+            "key": "ay",
+            "ipa": "aɪ",
+            "group": "diphthong",
+            "examples": [
+                "kite",
+                "bike",
+                "tiger"
+            ]
+        },
+        {
+            "key": "oy",
+            "ipa": "ɔɪ",
+            "group": "diphthong",
+            "examples": [
+                "boy",
+                "toy",
+                "coin"
+            ]
+        },
+        {
+            "key": "aw",
+            "ipa": "aʊ",
+            "group": "diphthong",
+            "examples": [
+                "cow",
+                "owl",
+                "cloud"
+            ]
+        },
+        {
+            "key": "ow",
+            "ipa": "oʊ",
+            "group": "diphthong",
+            "examples": [
+                "snow",
+                "bone",
+                "coat"
+            ]
+        }
+    ]
+}

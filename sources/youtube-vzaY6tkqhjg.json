@@ -1,0 +1,80 @@
+{
+    "kind": "youtube",
+    "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg",
+    "title": "Learn IPA - American English - Vowels",
+    "author": "Elise Linh learn English",
+    "author_url": "https://www.youtube.com/@EliselinhLL",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "verified": false,
+    "notes": "The 11 vowels: each is said alone when its symbol appears, then in three words; the \"Vowel Review\" (1:52–2:13) says all 11 again in one take. A Vietnamese title card comes before the footage and the channel is small — confirm that the uploader owns the recording before relying on the CC BY label. /æ/ comes from the introduction: the review take measured closer to /ɑ/.",
+    "retrieved_at": "2026-11-12",
+    "clips": [
+        {
+            "sound": "iy",
+            "from": 117.8,
+            "to": 118.58,
+            "label": "[i] in the Vowel Review, 1:57"
+        },
+        {
+            "sound": "ih",
+            "from": 42.44,
+            "to": 43.23,
+            "label": "[ɪ] said alone when introduced, 0:42"
+        },
+        {
+            "sound": "eh",
+            "from": 115.89,
+            "to": 116.55,
+            "label": "[ɛ] in the Vowel Review, 1:55"
+        },
+        {
+            "sound": "ae",
+            "from": 53.87,
+            "to": 54.6,
+            "label": "[æ] said alone when introduced, 0:53"
+        },
+        {
+            "sound": "ah",
+            "from": 123.66,
+            "to": 124.31,
+            "label": "[ʌ] in the Vowel Review, 2:03"
+        },
+        {
+            "sound": "aa",
+            "from": 5.45,
+            "to": 6.48,
+            "label": "[ɑ] said alone when introduced, 0:05"
+        },
+        {
+            "sound": "ao",
+            "from": 114.02,
+            "to": 114.72,
+            "label": "[ɔ] in the Vowel Review, 1:54"
+        },
+        {
+            "sound": "uh",
+            "from": 127.69,
+            "to": 128.32,
+            "label": "[ʊ] in the Vowel Review, 2:07"
+        },
+        {
+            "sound": "uw",
+            "from": 131.62,
+            "to": 132.38,
+            "label": "[u] in the Vowel Review, 2:11"
+        },
+        {
+            "sound": "ax",
+            "from": 125.68,
+            "to": 126.12,
+            "label": "[ə] in the Vowel Review, 2:05"
+        },
+        {
+            "sound": "er",
+            "from": 129.6,
+            "to": 130.34,
+            "label": "[ɜ] in the Vowel Review, 2:09"
+        }
+    ]
+}

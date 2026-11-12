@@ -1,0 +1,29 @@
+{
+    "name": "vocamax/ipa-audios",
+    "description": "One recording per American English IPA sound (24 consonants, 11 vowels, 5 diphthongs), with the source and license of every file.",
+    "homepage": "https://github.com/vocamax/ipa-audios",
+    "type": "library",
+    "keywords": [
+        "ipa",
+        "phonetics",
+        "pronunciation",
+        "american english",
+        "audio"
+    ],
+    "authors": [
+        {
+            "name": "vuthaihoc",
+            "email": "vuthaihoc.ttud@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "archive": {
+        "exclude": [
+            "/.cache",
+            "/bin",
+            "/CLAUDE.md"
+        ]
+    }
+}

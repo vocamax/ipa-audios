@@ -1,0 +1,241 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+/*
+ * Builds sounds/<key>.mp3, credits.json and the generated parts of README.md from sources/*.json.
+ *
+ *   php bin/build              download what is missing into .cache/, cut every clip, write everything
+ *   php bin/build --only=<id>  cut only the clips of sources/<id>.json (credits + README still cover all)
+ *   php bin/build --docs       rewrite credits.json + README.md only (no ffmpeg)
+ *   php bin/build --check      exit 1 if a manifest is invalid or a file / credits.json / README.md is out of date
+ *
+ * Every run also writes .cache/preview.html — `php -S 127.0.0.1:8124 -t .` then open /.cache/preview.html.
+ */
+
+require __DIR__.'/lib.php';
+
+[$options] = args($argv, ['only', 'docs', 'check']);
+$check = isset($options['check']);
+$cut = ! $check && ! isset($options['docs']);
+$only = $options['only'] ?? null;
+
+$sounds = sounds();
+$sources = sources();
+if (($errors = validate($sources, $sounds)) !== []) {
+    fail("invalid manifests:\n  ".implode("\n  ", $errors));
+}
+if ($only !== null && ! isset($sources[$only])) {
+    fail("no sources/{$only}.json");
+}
+
+// --- Cut -------------------------------------------------------------------------------------------------------
+$fresh = [];
+if ($cut) {
+    need('ffmpeg', 'ffprobe');
+    foreach ($sources as $id => $source) {
+        if (($only !== null && $only !== $id) || ($source['clips'] ?? []) === []) {
+            continue;
+        }
+        $wav = fetchSource($id, $source);
+        foreach ($source['clips'] as $clip) {
+            $key = $clip['sound'];
+            $gain = cutClip($wav, (float) $clip['from'], (float) $clip['to'], root()."/sounds/{$key}.mp3", [
+                'title' => "/{$sounds[$key]['ipa']}/ ({$key})",
+                'artist' => $source['author'],
+                'album' => 'American English IPA sounds',
+                'comment' => sprintf('From "%s" (%s), %s. %s', $source['title'], clipUrl($source, $clip), $source['license'], $source['license_url']),
+                'copyright' => $source['license'],
+            ]);
+            $fresh[$key] = true;
+            printf("%-4s /%s/  %-24s %6.2f–%-6.2f  gain %+5.1f dB\n", $key, $sounds[$key]['ipa'], $id, $clip['from'], $clip['to'], $gain);
+            if ($gain > GAIN_WARN) {
+                warn("{$key}: needed {$gain} dB — the clip is mostly silence, check `from` / `to`");
+            }
+        }
+    }
+}
+
+// --- credits.json + README -------------------------------------------------------------------------------------
+$clips = [];
+foreach ($sources as $id => $source) {
+    foreach ($source['clips'] ?? [] as $clip) {
+        $clips[$clip['sound']] = [$id, $source, $clip];
+    }
+}
+
+$credits = ['accent' => 'en-US', 'changes' => CHANGES, 'sounds' => []];
+$previous = is_file(root().'/credits.json') ? (readJson(root().'/credits.json')['sounds'] ?? []) : [];
+$problems = [];
+$recut = [];
+foreach ($sounds as $key => $sound) {
+    if (! isset($clips[$key])) {
+        continue;
+    }
+    [$id, $source, $clip] = $clips[$key];
+    $file = "sounds/{$key}.mp3";
+    if (! is_file(root().'/'.$file)) {
+        $problems[] = "{$file} is missing — run php bin/build";
+
+        continue;
+    }
+    // The file was cut from another segment / source than the manifest says now, and not re-cut in this run.
+    $before = $previous[$key] ?? null;
+    if (! isset($fresh[$key]) && $before !== null
+        && ($before['source'] !== $id || $before['segment'] !== [(float) $clip['from'], (float) $clip['to']])) {
+        $recut[] = "{$file} was cut from {$before['source']} ".implode('–', $before['segment']).' s, the manifest now says '
+            ."{$id} {$clip['from']}–{$clip['to']} s — run php bin/build".($id === $before['source'] ? " --only={$id}" : '');
+    }
+    $credits['sounds'][$key] = array_filter([
+        'ipa' => $sound['ipa'],
+        'file' => $file,
+        'sha1' => sha1_file(root().'/'.$file),
+        'source' => $id,
+        'title' => $source['title'],
+        'url' => clipUrl($source, $clip),
+        'author' => $source['author'],
+        'author_url' => $source['author_url'] ?? null,
+        'license' => $source['license'],
+        'license_url' => $source['license_url'],
+        'verified' => $source['verified'],
+        'retrieved_at' => $source['retrieved_at'],
+        'segment' => [(float) $clip['from'], (float) $clip['to']],
+    ], fn ($v) => $v !== null);
+}
+foreach (glob(root().'/sounds/*.mp3') ?: [] as $path) {
+    if (! isset($clips[basename($path, '.mp3')])) {
+        $problems[] = 'sounds/'.basename($path).' is in no manifest — delete it or add its clip';
+    }
+}
+
+$readme = (string) file_get_contents(root().'/README.md');
+$readme = section($readme, 'sounds', soundsTable($sounds, $credits['sounds']));
+$readme = section($readme, 'sources', sourcesList($sources, $sounds));
+$json = toJson($credits);
+
+if ($recut !== [] && ! $check) {
+    fail(implode("\n  ", $recut));
+}
+if ($check) {
+    $problems = [...$recut, ...$problems];
+    if ($recut === [] && $json !== (string) @file_get_contents(root().'/credits.json')) {
+        $problems[] = 'credits.json is out of date — run php bin/build --docs';
+    }
+    if ($readme !== (string) file_get_contents(root().'/README.md')) {
+        $problems[] = 'README.md is out of date — run php bin/build --docs';
+    }
+    if ($problems !== []) {
+        fail(implode("\n  ", $problems));
+    }
+    printf("ok: %d/%d sounds, %d sources\n", count($credits['sounds']), count($sounds), count($sources));
+    exit(0);
+}
+
+foreach ($problems as $problem) {
+    warn($problem);
+}
+file_put_contents(root().'/credits.json', $json);
+file_put_contents(root().'/README.md', $readme);
+file_put_contents(cacheDir('').'/preview.html', preview($sounds, $credits['sounds']));
+
+$missing = array_diff(array_keys($sounds), array_keys($credits['sounds']));
+printf("%d/%d sounds. Missing: %s\n", count($credits['sounds']), count($sounds), $missing === [] ? 'none' : implode(' ', $missing));
+echo "Listen: php -S 127.0.0.1:8124 -t . → http://localhost:8124/.cache/preview.html\n";
+
+// --- Generated text --------------------------------------------------------------------------------------------
+
+function section(string $readme, string $name, string $body): string
+{
+    $start = "<!-- {$name}:start -->";
+    $end = "<!-- {$name}:end -->";
+    $a = strpos($readme, $start);
+    $b = strpos($readme, $end);
+    if ($a === false || $b === false || $b < $a) {
+        fail("README.md needs the markers {$start} and {$end}");
+    }
+
+    return substr($readme, 0, $a + strlen($start))."\n".$body."\n".substr($readme, $b);
+}
+
+function soundsTable(array $sounds, array $credits): string
+{
+    $groups = ['consonant' => 'Consonants', 'vowel' => 'Vowels', 'diphthong' => 'Diphthongs'];
+    $lines = [sprintf('%d of %d sounds have a file.', count($credits), count($sounds))];
+    foreach ($groups as $group => $title) {
+        $rows = array_filter($sounds, fn (array $s) => $s['group'] === $group);
+        $have = count(array_intersect_key($credits, $rows));
+        $lines[] = '';
+        $lines[] = sprintf('**%s** (%d/%d)', $title, $have, count($rows));
+        $lines[] = '';
+        $lines[] = '| Sound | Key | Examples | File | Source | License |';
+        $lines[] = '|---|---|---|---|---|---|';
+        foreach ($rows as $key => $s) {
+            $c = $credits[$key] ?? null;
+            $lines[] = sprintf(
+                '| /%s/ | `%s` | %s | %s | %s | %s |',
+                $s['ipa'], $key, implode(', ', $s['examples']),
+                $c ? "[{$key}.mp3]({$c['file']})" : '—',
+                $c ? sprintf('[%s](%s) — %s', md($c['title']), $c['url'], md($c['author'])) : 'missing',
+                $c ? sprintf('[%s](%s)%s', $c['license'], $c['license_url'], $c['verified'] ? '' : ' ¹') : '',
+            );
+        }
+    }
+    $lines[] = '';
+    $lines[] = '¹ License as labeled by the uploader; the original source of the recording is not confirmed yet.';
+
+    return implode("\n", $lines);
+}
+
+function sourcesList(array $sources, array $sounds): string
+{
+    $lines = [];
+    foreach ($sources as $id => $s) {
+        $author = isset($s['author_url']) ? "[{$s['author']}]({$s['author_url']})" : md($s['author']);
+        $lines[] = "### {$s['title']}";
+        $lines[] = '';
+        $lines[] = '- Source: '.($s['kind'] === 'file' ? "`{$s['path']}`" : "<{$s['url']}>")." (`sources/{$id}.json`)";
+        $lines[] = "- Author: {$author}";
+        $lines[] = "- License: [{$s['license']}]({$s['license_url']})".($s['verified'] ? '' : ' — as labeled by the uploader, not confirmed');
+        if (trim((string) ($s['notes'] ?? '')) !== '') {
+            $lines[] = '- Notes: '.trim($s['notes']);
+        }
+        $lines[] = "- Retrieved: {$s['retrieved_at']}";
+        if (($s['clips'] ?? []) !== []) {
+            $lines[] = '';
+            $lines[] = '| Sound | File | Segment | In the source |';
+            $lines[] = '|---|---|---|---|';
+            foreach ($s['clips'] as $clip) {
+                $lines[] = sprintf('| /%s/ | [%s.mp3](sounds/%s.mp3) | [%.2f–%.2f s](%s) | %s |', $sounds[$clip['sound']]['ipa'],
+                    $clip['sound'], $clip['sound'], $clip['from'], $clip['to'], clipUrl($s, $clip), md((string) ($clip['label'] ?? '')));
+            }
+        }
+        $lines[] = '';
+    }
+
+    return rtrim(implode("\n", $lines));
+}
+
+function md(string $text): string
+{
+    return str_replace(['|', '[', ']'], ['\|', '\[', '\]'], $text);
+}
+
+function preview(array $sounds, array $credits): string
+{
+    $rows = '';
+    foreach ($sounds as $key => $s) {
+        $c = $credits[$key] ?? null;
+        $rows .= sprintf(
+            '<tr><th>/%s/<small>%s</small></th><td>%s</td><td>%s</td><td>%s</td></tr>',
+            htmlspecialchars($s['ipa']), $key, htmlspecialchars(implode(', ', $s['examples'])),
+            $c ? '<audio controls preload="none" src="../'.$c['file'].'?v='.substr($c['sha1'], 0, 8).'"></audio>' : '<i>missing</i>',
+            $c ? sprintf('<a href="%s">%s</a> · %s · %s%s', htmlspecialchars($c['url']), htmlspecialchars($c['title']), htmlspecialchars($c['author']), htmlspecialchars($c['license']), $c['verified'] ? '' : ' · <b>not verified</b>') : '',
+        );
+    }
+
+    return '<!doctype html><meta charset="utf-8"><title>IPA sounds preview</title><style>body{font:14px system-ui;margin:24px;color:#1e293b}'
+        .'table{border-collapse:collapse}th,td{border:1px solid #e2e8f0;padding:6px 10px;text-align:left}th{font-size:18px}'
+        .'small{display:block;font-size:11px;color:#64748b;font-weight:400}audio{height:32px}i{color:#94a3b8}</style>'
+        .'<h1>American English IPA sounds</h1><table>'.$rows.'</table>';
+}

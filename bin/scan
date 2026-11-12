@@ -1,0 +1,120 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+/*
+ * First look at a YouTube video before writing its manifest:
+ *
+ *   php bin/scan <youtube url | id> [--noise=-38] [--min-silence=0.25]
+ *
+ * Downloads the audio, the auto captions and a small video into .cache/youtube-<id>/, splits the audio at silences
+ * and prints every speech segment with the caption words around it and suggested cut points (0.12 s before, 0.2 s
+ * after). sheet.png shows a frame from the middle of each segment — the symbol on screen says which sound it is
+ * (label by what is shown, not by order). manifest.draft.json is the start of sources/youtube-<id>.json.
+ */
+
+require __DIR__.'/lib.php';
+
+[$options, $positional] = args($argv, ['noise', 'min-silence']);
+$vid = youtubeId((string) ($positional[0] ?? ''));
+if ($vid === null) {
+    fail('usage: php bin/scan <youtube url | id> [--noise=-38] [--min-silence=0.25]');
+}
+need('yt-dlp', 'ffmpeg', 'ffprobe');
+
+$id = "youtube-{$vid}";
+$dir = cacheDir($id);
+$url = "https://www.youtube.com/watch?v={$vid}";
+
+if (! is_file("{$dir}/info.json")) {
+    [, $json] = run(['yt-dlp', '--no-warnings', '--skip-download', '--dump-json', $url]);
+    file_put_contents("{$dir}/info.json", $json);
+}
+$info = readJson("{$dir}/info.json");
+if ((glob("{$dir}/captions.*.json3") ?: []) === []) {
+    run(['yt-dlp', '-q', '--no-warnings', '--skip-download', '--write-auto-subs', '--write-subs', '--sub-langs', 'en-orig,en',
+        '--sub-format', 'json3', '-o', "{$dir}/captions.%(ext)s", $url], false);
+}
+if ((glob("{$dir}/video.*") ?: []) === []) {
+    run(['yt-dlp', '-q', '--no-warnings', '-f', 'bv*[height<=360][ext=mp4]/bv*[height<=480]/worst', '-o', "{$dir}/video.%(ext)s", $url]);
+}
+$wav = fetchSource($id, ['kind' => 'youtube', 'url' => $url]);
+$video = (glob("{$dir}/video.*") ?: [])[0];
+
+// --- License ---------------------------------------------------------------------------------------------------
+$creativeCommons = str_contains(strtolower((string) ($info['license'] ?? '')), 'creative commons');
+echo "{$info['title']}\n{$info['channel']} · ".gmdate('i:s', (int) $info['duration']).' · '.($info['license'] ?? 'Standard YouTube License')."\n";
+if (! $creativeCommons) {
+    warn('not Creative Commons on YouTube: the standard license does not allow reusing the audio — ask the author or skip this video');
+}
+
+// --- Segments + captions ---------------------------------------------------------------------------------------
+$words = [];
+foreach (glob("{$dir}/captions.*.json3") ?: [] as $path) {
+    foreach (readJson($path)['events'] ?? [] as $event) {
+        foreach ($event['segs'] ?? [] as $seg) {
+            if (trim($seg['utf8'] ?? '') !== '') {
+                $words[] = [($event['tStartMs'] + ($seg['tOffsetMs'] ?? 0)) / 1000, trim($seg['utf8'])];
+            }
+        }
+    }
+    break; // en-orig first; one caption track is enough
+}
+
+$segments = speech($wav, (float) ($options['noise'] ?? -38), (float) ($options['min-silence'] ?? 0.25));
+@mkdir("{$dir}/frames");
+array_map('unlink', glob("{$dir}/frames/*.png") ?: []);
+
+echo "\n  #    from     to    len   cut from–to      caption words\n";
+foreach ($segments as $i => [$from, $to]) {
+    $n = $i + 1;
+    $near = array_column(array_filter($words, fn (array $w) => $w[0] >= $from - 0.3 && $w[0] <= $to + 0.1), 1);
+    printf("%3d %7.2f %7.2f %5.2f   %6.2f–%-6.2f   %s\n", $n, $from, $to, $to - $from, max(0, $from - 0.12), $to + 0.2, implode(' ', $near));
+    run(['ffmpeg', '-v', 'error', '-y', '-ss', sprintf('%.2f', ($from + $to) / 2), '-i', $video, '-frames:v', '1', '-vf', 'scale=200:-2', sprintf('%s/frames/%03d.png', $dir, $n)]);
+}
+
+sheet("{$dir}/frames", "{$dir}/sheet.png", $segments);
+
+file_put_contents("{$dir}/manifest.draft.json", toJson([
+    'kind' => 'youtube',
+    'url' => $url,
+    'title' => $info['title'],
+    'author' => $info['channel'],
+    'author_url' => $info['uploader_url'] ?? $info['channel_url'] ?? null,
+    'license' => $creativeCommons ? 'CC BY 3.0' : 'TODO: not reusable without permission',
+    'license_url' => $creativeCommons ? 'https://creativecommons.org/licenses/by/3.0/' : 'TODO',
+    'verified' => false,
+    'notes' => '',
+    'retrieved_at' => date('Y-m-d'),
+    'clips' => [['sound' => 'TODO key from sounds.json', 'from' => 0, 'to' => 0, 'label' => 'what the video shows, e.g. [ɛ] at 0:22']],
+]));
+
+echo "\n".count($segments)." segments. Frames: {$dir}/sheet.png\nDraft manifest: {$dir}/manifest.draft.json → sources/{$id}.json\n";
+echo "Tune the split with --noise (higher = stricter, e.g. -34) when segments merge, lower (-45) when soft sounds are missed.\n";
+
+function sheet(string $frames, string $out, array $segments): void
+{
+    if (! function_exists('imagecreatefrompng')) {
+        warn('ext-gd missing: no sheet.png, look at the frames/ directory');
+
+        return;
+    }
+    $files = glob("{$frames}/*.png") ?: [];
+    if ($files === []) {
+        return;
+    }
+    $first = imagecreatefrompng($files[0]);
+    [$w, $h, $label, $cols] = [imagesx($first), imagesy($first), 18, 8];
+    $rows = (int) ceil(count($files) / $cols);
+    $image = imagecreatetruecolor($cols * $w, $rows * ($h + $label));
+    imagefill($image, 0, 0, imagecolorallocate($image, 255, 255, 255));
+    $red = imagecolorallocate($image, 200, 0, 0);
+    foreach ($files as $i => $file) {
+        $x = ($i % $cols) * $w;
+        $y = intdiv($i, $cols) * ($h + $label);
+        imagecopy($image, imagecreatefrompng($file), $x, $y + $label, 0, 0, $w, $h);
+        imagestring($image, 4, $x + 3, $y + 1, sprintf('#%d %.2f', $i + 1, $segments[$i][0]), $red);
+    }
+    imagepng($image, $out);
+}
