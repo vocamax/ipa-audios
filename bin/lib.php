@@ -19,6 +19,7 @@ const GAIN_WARN = 18.0;
 const CHANGES = 'Cut to the sound (about 0.1 s of silence before it, 0.2 s after), loudness normalized (mean '
     .'−20 dBFS), peak-limited, 20 ms fade-in and 60 ms fade-out, mono MP3 96 kbps with the credit in the ID3 tags.';
 const KINDS = ['youtube', 'url', 'file'];
+const GROUPS = ['consonant' => 'Consonants', 'vowel' => 'Vowels', 'diphthong' => 'Diphthongs'];
 
 /**
  * `--name=value` / `--flag` anywhere on the command line, the rest positional (`getopt()` stops at the first
@@ -134,11 +135,39 @@ function sources(): array
     return $sources;
 }
 
+/** Number of example words in `credits.json` `words` (sound key => list). */
+function wordCount(array $words): int
+{
+    return array_sum(array_map('count', $words));
+}
+
+/** `words/<sound>/<word>.mp3` of an example word of a manifest. */
+function wordFile(array $word): string
+{
+    return 'words/'.$word['sound'].'/'.strtolower($word['word']).'.mp3';
+}
+
+/** Problem with the `from` / `to` of a clip or a word, if any. */
+function spanError(string $at, array $clip): ?string
+{
+    $from = $clip['from'] ?? null;
+    $to = $clip['to'] ?? null;
+    if (! is_numeric($from) || ! is_numeric($to) || $from < 0 || $to <= $from) {
+        return "{$at}: needs numbers 0 ≤ from < to (seconds)";
+    }
+    if ($to - $from < CLIP_MIN || $to - $from > CLIP_MAX) {
+        return sprintf('%s: %.2f s long — a clip with its padding is %.1f–%.1f s', $at, $to - $from, CLIP_MIN, CLIP_MAX);
+    }
+
+    return null;
+}
+
 /** @return list<string> problems in the manifests */
 function validate(array $sources, array $sounds): array
 {
     $errors = [];
     $used = [];
+    $usedWords = [];
     foreach ($sources as $id => $s) {
         $at = "sources/{$id}.json";
         if (! preg_match('/^[a-z0-9][a-z0-9._-]*$/i', $id)) {
@@ -168,12 +197,29 @@ function validate(array $sources, array $sounds): array
                 $errors[] = "{$c}: sound `{$key}` already comes from {$used[$key]} — one file per sound";
             }
             $used[$key] = $at;
-            $from = $clip['from'] ?? null;
-            $to = $clip['to'] ?? null;
-            if (! is_numeric($from) || ! is_numeric($to) || $from < 0 || $to <= $from) {
-                $errors[] = "{$c}: needs numbers 0 ≤ from < to (seconds)";
-            } elseif ($to - $from < CLIP_MIN || $to - $from > CLIP_MAX) {
-                $errors[] = sprintf('%s: %.2f s long — a sound with its padding is %.1f–%.1f s', $c, $to - $from, CLIP_MIN, CLIP_MAX);
+            if (($error = spanError($c, $clip)) !== null) {
+                $errors[] = $error;
+            }
+        }
+        foreach ($s['words'] ?? [] as $i => $word) {
+            $c = "{$at} words[{$i}]";
+            if (! isset($sounds[$word['sound'] ?? null])) {
+                $errors[] = "{$c}: unknown sound `".json_encode($word['sound'] ?? null).'` (keys are in sounds.json)';
+
+                continue;
+            }
+            if (! is_string($word['word'] ?? null) || ! preg_match('/^[A-Za-z]+$/', $word['word'])) {
+                $errors[] = "{$c}: `word` must be letters only, as written on screen (its file is words/<sound>/<word in lower case>.mp3)";
+
+                continue;
+            }
+            $file = wordFile($word);
+            if (isset($usedWords[$file])) {
+                $errors[] = "{$c}: {$file} already comes from {$usedWords[$file]} — one file per word and sound";
+            }
+            $usedWords[$file] = $at;
+            if (($error = spanError($c, $word)) !== null) {
+                $errors[] = $error;
             }
         }
     }

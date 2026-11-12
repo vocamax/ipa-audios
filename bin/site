@@ -1,0 +1,44 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+/*
+ * Writes the GitHub Pages site into a directory: index.html (bin/page.php), credits.json and every file it lists.
+ *
+ *   php bin/site _site
+ *
+ * Reads only what bin/build wrote (credits.json, sounds/, words/) and checks the SHA-1 of every file it copies:
+ * run `php bin/build --check` first. .github/workflows/pages.yml runs both on every push to main.
+ */
+
+require __DIR__.'/lib.php';
+require __DIR__.'/page.php';
+
+[, $positional] = args($argv, []);
+$out = rtrim((string) ($positional[0] ?? ''), '/');
+if ($out === '') {
+    fail('usage: php bin/site <output directory>');
+}
+if (! is_dir($out) && ! mkdir($out, 0775, true) && ! is_dir($out)) {
+    fail("cannot create {$out}");
+}
+
+$credits = readJson(root().'/credits.json');
+$entries = [...array_values($credits['sounds'] ?? []), ...array_merge(...array_values($credits['words'] ?? []))];
+foreach ($entries as $entry) {
+    $from = root().'/'.$entry['file'];
+    if (! is_file($from) || sha1_file($from) !== $entry['sha1']) {
+        fail("{$entry['file']} is missing or differs from credits.json — run php bin/build");
+    }
+    $to = "{$out}/{$entry['file']}";
+    if (! is_dir(dirname($to)) && ! mkdir(dirname($to), 0775, true) && ! is_dir(dirname($to))) {
+        fail('cannot create '.dirname($to));
+    }
+    copy($from, $to);
+}
+copy(root().'/credits.json', "{$out}/credits.json");
+file_put_contents("{$out}/index.html", page(sounds(), $credits, sources()));
+touch("{$out}/.nojekyll");
+
+printf("%s: index.html + %d files\n", $out, count($entries));

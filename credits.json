@@ -2,6 +2,438 @@
     "accent": "en-US",
     "changes": "Cut to the sound (about 0.1 s of silence before it, 0.2 s after), loudness normalized (mean −20 dBFS), peak-limited, 20 ms fade-in and 60 ms fade-out, mono MP3 96 kbps with the credit in the ID3 tags.",
     "sounds": {
+        "p": {
+            "ipa": "p",
+            "file": "sounds/p.mp3",
+            "sha1": "c02c792e4e6e4a978900ebdf799354494ee8253c",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=40s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                40.96,
+                41.4
+            ]
+        },
+        "b": {
+            "ipa": "b",
+            "file": "sounds/b.mp3",
+            "sha1": "479bb4a6c6e71ffeb559eb6b4b0b09b952663c18",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=33s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                33.89,
+                34.45
+            ]
+        },
+        "t": {
+            "ipa": "t",
+            "file": "sounds/t.mp3",
+            "sha1": "eccf07387a0c8772f6a343a9d6607310b78c0e58",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=13s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                13.77,
+                14.2
+            ]
+        },
+        "d": {
+            "ipa": "d",
+            "file": "sounds/d.mp3",
+            "sha1": "f2d22b90647382932d0bd0ba784928f4df7e4801",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=6s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                6.77,
+                7.38
+            ]
+        },
+        "k": {
+            "ipa": "k",
+            "file": "sounds/k.mp3",
+            "sha1": "3bb63bcdeb5efbabcaf169aa53e2e534db297dbc",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=55s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                55.96,
+                56.39
+            ]
+        },
+        "g": {
+            "ipa": "ɡ",
+            "file": "sounds/g.mp3",
+            "sha1": "5f85364153bd57fe28ea7b18d9420bb8f8558741",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=48s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                48.61,
+                49.23
+            ]
+        },
+        "m": {
+            "ipa": "m",
+            "file": "sounds/m.mp3",
+            "sha1": "11788c725e41e9a67c4ce5e7da442aa5b255f3bb",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=146s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                146.96,
+                147.72
+            ]
+        },
+        "n": {
+            "ipa": "n",
+            "file": "sounds/n.mp3",
+            "sha1": "3ee99a591d4c5ef2c67d977d8121d163936a4ff5",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=155s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                155.47,
+                156.32
+            ]
+        },
+        "f": {
+            "ipa": "f",
+            "file": "sounds/f.mp3",
+            "sha1": "56be423de2fbb6134704dd73c73910c48b8a1a9c",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=28s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                28.56,
+                29.12
+            ]
+        },
+        "v": {
+            "ipa": "v",
+            "file": "sounds/v.mp3",
+            "sha1": "0eef1d53b3392720a5a420d5300f918bd5f1bf48",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=21s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                21.82,
+                22.7
+            ]
+        },
+        "s": {
+            "ipa": "s",
+            "file": "sounds/s.mp3",
+            "sha1": "0223408dbc62e73cbf2dc2cf990a9deea267bc6a",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=78s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                78.87,
+                79.9
+            ]
+        },
+        "z": {
+            "ipa": "z",
+            "file": "sounds/z.mp3",
+            "sha1": "8816bf31934e380839f1baab69c72f69f26027b1",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=86s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                86.41,
+                87.26
+            ]
+        },
+        "hh": {
+            "ipa": "h",
+            "file": "sounds/hh.mp3",
+            "sha1": "930d714b7a0aa1bd1032b8ce0d4c32b96c15f357",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=124s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                124.26,
+                124.74
+            ]
+        },
+        "l": {
+            "ipa": "l",
+            "file": "sounds/l.mp3",
+            "sha1": "f348bbb18bd92ef9c7ced44fc02f96af08fc9a08",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=173s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                173.13,
+                173.88
+            ]
+        },
+        "w": {
+            "ipa": "w",
+            "file": "sounds/w.mp3",
+            "sha1": "1e0a7130944d7cb20b0cfb63b25ec76b3e899382",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=181s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                181.7,
+                182.27
+            ]
+        },
+        "y": {
+            "ipa": "j",
+            "file": "sounds/y.mp3",
+            "sha1": "c174c41939a66c8a8f4feba2ac614684ba06eb09",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=139s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                139.37,
+                140.01
+            ]
+        },
+        "th": {
+            "ipa": "θ",
+            "file": "sounds/th.mp3",
+            "sha1": "45de99ff24d8fc6279ae53a993a0542edb677c65",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=63s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                63.75,
+                64.32
+            ]
+        },
+        "dh": {
+            "ipa": "ð",
+            "file": "sounds/dh.mp3",
+            "sha1": "ba4d84ea720311a43ed396ff6b6c9c86ccc8977e",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=71s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                71.43,
+                72.15
+            ]
+        },
+        "sh": {
+            "ipa": "ʃ",
+            "file": "sounds/sh.mp3",
+            "sha1": "e1c500f40929dc7490f8575846711b914f7db132",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=94s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                94.05,
+                95.07
+            ]
+        },
+        "zh": {
+            "ipa": "ʒ",
+            "file": "sounds/zh.mp3",
+            "sha1": "3e18fac688eb92ee4726478ed64aa144b2538fc7",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=101s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                101.47,
+                102.29
+            ]
+        },
+        "ch": {
+            "ipa": "tʃ",
+            "file": "sounds/ch.mp3",
+            "sha1": "c06a3005fc433a72420cee000cd4bb8afbc90c2e",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=109s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                109.19,
+                109.71
+            ]
+        },
+        "jh": {
+            "ipa": "dʒ",
+            "file": "sounds/jh.mp3",
+            "sha1": "abf07733fc0249b150b62247197cb20e6fa3d443",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=116s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                116.75,
+                117.41
+            ]
+        },
+        "r": {
+            "ipa": "r",
+            "file": "sounds/r.mp3",
+            "sha1": "9165da0fb306118b851791375c8435be29c2b3f4",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=131s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                131.27,
+                132.04
+            ]
+        },
+        "ng": {
+            "ipa": "ŋ",
+            "file": "sounds/ng.mp3",
+            "sha1": "3f74b8cbbe787a6aab31b05b4a0998ec1296f388",
+            "source": "youtube-YG1-7V2rlZQ",
+            "title": "Learn IPA - American English - Consonants",
+            "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=164s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                164.22,
+                165.05
+            ]
+        },
         "ih": {
             "ipa": "ɪ",
             "file": "sounds/ih.mp3",
@@ -199,6 +631,2320 @@
                 129.6,
                 130.34
             ]
+        },
+        "ey": {
+            "ipa": "eɪ",
+            "file": "sounds/ey.mp3",
+            "sha1": "6816cffff2b4796ccd520b6c66f43c71c17fe354",
+            "source": "youtube-65lGhp4IKug",
+            "title": "Learn IPA - American English - Diphthongs",
+            "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=74s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                74.6,
+                75.53
+            ]
+        },
+        "ay": {
+            "ipa": "aɪ",
+            "file": "sounds/ay.mp3",
+            "sha1": "9225c4a21d258aeada22d01cacecd7fd0adcb417",
+            "source": "youtube-65lGhp4IKug",
+            "title": "Learn IPA - American English - Diphthongs",
+            "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=72s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                72.39,
+                73.3
+            ]
+        },
+        "oy": {
+            "ipa": "ɔɪ",
+            "file": "sounds/oy.mp3",
+            "sha1": "728dd17b781f9252059aa357238dcbc604510dfa",
+            "source": "youtube-65lGhp4IKug",
+            "title": "Learn IPA - American English - Diphthongs",
+            "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=70s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                70.32,
+                71.28
+            ]
+        },
+        "aw": {
+            "ipa": "aʊ",
+            "file": "sounds/aw.mp3",
+            "sha1": "726abaf3adf2ca099acd510945d0a38320c71cb5",
+            "source": "youtube-65lGhp4IKug",
+            "title": "Learn IPA - American English - Diphthongs",
+            "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=65s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                65.93,
+                66.86
+            ]
+        },
+        "ow": {
+            "ipa": "oʊ",
+            "file": "sounds/ow.mp3",
+            "sha1": "82ec93cd06b22c3f5b1b3855025a34d4e07b2f59",
+            "source": "youtube-65lGhp4IKug",
+            "title": "Learn IPA - American English - Diphthongs",
+            "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=68s",
+            "author": "Elise Linh learn English",
+            "author_url": "https://www.youtube.com/@EliselinhLL",
+            "license": "CC BY 3.0",
+            "license_url": "https://creativecommons.org/licenses/by/3.0/",
+            "verified": false,
+            "retrieved_at": "2026-11-12",
+            "segment": [
+                68.17,
+                69.09
+            ]
         }
+    },
+    "words": {
+        "p": [
+            {
+                "word": "pan",
+                "file": "words/p/pan.mp3",
+                "sha1": "ce72fd137833372931ce4063e0960668fe3e9f06",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=43s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    43.07,
+                    43.99
+                ]
+            },
+            {
+                "word": "ship",
+                "file": "words/p/ship.mp3",
+                "sha1": "f06e6b28d1531b50cb327df58a54f708baae8308",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=44s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    44.42,
+                    45.37
+                ]
+            },
+            {
+                "word": "reapply",
+                "file": "words/p/reapply.mp3",
+                "sha1": "e65288b51a9626015dba194c14e9e822727caf1c",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=45s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    45.96,
+                    47.01
+                ]
+            }
+        ],
+        "b": [
+            {
+                "word": "big",
+                "file": "words/b/big.mp3",
+                "sha1": "fcfea914ad69290637e68eb50372e8f6767ebd44",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=36s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    36.45,
+                    37.31
+                ]
+            },
+            {
+                "word": "sob",
+                "file": "words/b/sob.mp3",
+                "sha1": "7a3296e65bd3d3f514a8717067d23faf0e37eb03",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=37s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    37.58,
+                    38.63
+                ]
+            },
+            {
+                "word": "abandon",
+                "file": "words/b/abandon.mp3",
+                "sha1": "011a58c45624d505b6ce837bc114a2c8a66ca89f",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=38s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    38.96,
+                    39.99
+                ]
+            }
+        ],
+        "t": [
+            {
+                "word": "washed",
+                "file": "words/t/washed.mp3",
+                "sha1": "04a6304130234824521aa39ad3b3edf4423e572e",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=16s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    16.69,
+                    17.89
+                ]
+            },
+            {
+                "word": "untie",
+                "file": "words/t/untie.mp3",
+                "sha1": "c50ed9fb4d7beba59a4783d78acd3454485dd1cc",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=18s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    18.17,
+                    19.21
+                ]
+            },
+            {
+                "word": "tip",
+                "file": "words/t/tip.mp3",
+                "sha1": "d98ecd663d83281807def8c96cfe4cf6a94d548c",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=19s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    19.75,
+                    20.27
+                ]
+            }
+        ],
+        "d": [
+            {
+                "word": "dime",
+                "file": "words/d/dime.mp3",
+                "sha1": "fd9714a65b280584292035033843d947a1665187",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=8s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    8.12,
+                    9.24
+                ]
+            },
+            {
+                "word": "redo",
+                "file": "words/d/redo.mp3",
+                "sha1": "e18af6de8dce742c5aa265cfc299422604adb0f6",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=9s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    9.56,
+                    10.46
+                ]
+            },
+            {
+                "word": "smiled",
+                "file": "words/d/smiled.mp3",
+                "sha1": "0b866decacae1923d964dba96dc5d05ebcd7de0c",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=10s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    10.83,
+                    11.9
+                ]
+            }
+        ],
+        "k": [
+            {
+                "word": "choir",
+                "file": "words/k/choir.mp3",
+                "sha1": "358641ef3e89c6ba275b02b513cb20195524ec58",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=58s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    58.37,
+                    59.2
+                ]
+            },
+            {
+                "word": "quiet",
+                "file": "words/k/quiet.mp3",
+                "sha1": "18aa98facf1a302589d3de50488400948f54b597",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=59s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    59.9,
+                    60.85
+                ]
+            },
+            {
+                "word": "back",
+                "file": "words/k/back.mp3",
+                "sha1": "07632de2c40cf6008ad6a71edd4433ab8e06aab4",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=61s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    61.34,
+                    62.25
+                ]
+            }
+        ],
+        "g": [
+            {
+                "word": "gap",
+                "file": "words/g/gap.mp3",
+                "sha1": "2d0b3289477aaf0e73d98bb7b55c8eb9ba070cca",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=50s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    50.38,
+                    51.38
+                ]
+            },
+            {
+                "word": "exhibit",
+                "file": "words/g/exhibit.mp3",
+                "sha1": "800a776052a340b045f6152a9686d6bcf2624df8",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=51s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    51.9,
+                    52.92
+                ]
+            },
+            {
+                "word": "fog",
+                "file": "words/g/fog.mp3",
+                "sha1": "af6d7668a8c329834ade3fe990ac9bb3b741512b",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=53s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    53.37,
+                    54.33
+                ]
+            }
+        ],
+        "m": [
+            {
+                "word": "my",
+                "file": "words/m/my.mp3",
+                "sha1": "69487a2fac0368761a64785175405bc798aadc0c",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=149s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    149.8,
+                    150.74
+                ]
+            },
+            {
+                "word": "mumble",
+                "file": "words/m/mumble.mp3",
+                "sha1": "2125ff1bad1216204ac984d8da19170ddf9c3d9f",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=151s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    151.09,
+                    152.12
+                ]
+            },
+            {
+                "word": "some",
+                "file": "words/m/some.mp3",
+                "sha1": "67251b4779f5bfd6403a5cf061d35ff613349d50",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=152s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    152.33,
+                    153.32
+                ]
+            }
+        ],
+        "n": [
+            {
+                "word": "nine",
+                "file": "words/n/nine.mp3",
+                "sha1": "6d9ad30d0fa7ceb44c280989949dcb9c261e4050",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=158s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    158.28,
+                    159.47
+                ]
+            },
+            {
+                "word": "no",
+                "file": "words/n/no.mp3",
+                "sha1": "3824400ae991d327cb59d877aff226170e2b2d79",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=159s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    159.97,
+                    160.9
+                ]
+            },
+            {
+                "word": "undo",
+                "file": "words/n/undo.mp3",
+                "sha1": "49fe7c9c56a2395b042660798c9570674c84d330",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=161s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    161.33,
+                    162.37
+                ]
+            }
+        ],
+        "f": [
+            {
+                "word": "staff",
+                "file": "words/f/staff.mp3",
+                "sha1": "5aef66223863174c0cb4f90d80c9270ecbbd85a3",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=29s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    29.12,
+                    30
+                ]
+            },
+            {
+                "word": "enough",
+                "file": "words/f/enough.mp3",
+                "sha1": "cbb03304615d300a0ebb0d055b274bb66c2c2d3f",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=30s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    30.56,
+                    31.37
+                ]
+            },
+            {
+                "word": "phone",
+                "file": "words/f/phone.mp3",
+                "sha1": "b6028fabd302357e68e1d4617ffc84f0d8a3c543",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=31s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    31.92,
+                    32.9
+                ]
+            }
+        ],
+        "v": [
+            {
+                "word": "value",
+                "file": "words/v/value.mp3",
+                "sha1": "15a53e73d54f68b37ef73392a22e7335a00c36fc",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=23s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    23.06,
+                    24.03
+                ]
+            },
+            {
+                "word": "of",
+                "file": "words/v/of.mp3",
+                "sha1": "35124cbf6c8c0e478a5e3abf603e9b06e5272bff",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=24s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    24.65,
+                    25.46
+                ]
+            },
+            {
+                "word": "love",
+                "file": "words/v/love.mp3",
+                "sha1": "7ed854265fce5b90aa76be4e08d6f1e32a359b4f",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=26s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    26,
+                    26.89
+                ]
+            }
+        ],
+        "s": [
+            {
+                "word": "ice",
+                "file": "words/s/ice.mp3",
+                "sha1": "39cac3813a6b2e6a012517ebf8d6451d1c026fc8",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=80s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    80.97,
+                    81.94
+                ]
+            },
+            {
+                "word": "some",
+                "file": "words/s/some.mp3",
+                "sha1": "f471758e9f45bea8d02a8ce25381f0465f673aa1",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=82s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    82.37,
+                    83.36
+                ]
+            },
+            {
+                "word": "ax",
+                "file": "words/s/ax.mp3",
+                "sha1": "41c9c4d2dc2242ddaad6b01dec6f94612dce54c0",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=83s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    83.9,
+                    84.9
+                ]
+            }
+        ],
+        "z": [
+            {
+                "word": "lazy",
+                "file": "words/z/lazy.mp3",
+                "sha1": "a9d9165174fde47b345a65c7ff49e76e603f9404",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=88s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    88.09,
+                    89.15
+                ]
+            },
+            {
+                "word": "flowers",
+                "file": "words/z/flowers.mp3",
+                "sha1": "bf5c1eb39921c13d71783ac58514e84e46fc67ca",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=89s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    89.65,
+                    90.78
+                ]
+            },
+            {
+                "word": "possess",
+                "file": "words/z/possess.mp3",
+                "sha1": "f144a1a08ee239f793fc4c40d0f04522691fa992",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=91s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    91.28,
+                    92.31
+                ]
+            }
+        ],
+        "hh": [
+            {
+                "word": "happy",
+                "file": "words/hh/happy.mp3",
+                "sha1": "f258b411191f01d868adb72fdfe037f467925a97",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=126s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    126.28,
+                    127.28
+                ]
+            },
+            {
+                "word": "rehash",
+                "file": "words/hh/rehash.mp3",
+                "sha1": "1ad7268af7a92325d4b7fe963b0ea97055d34b65",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=127s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    127.77,
+                    129.09
+                ]
+            },
+            {
+                "word": "hi",
+                "file": "words/hh/hi.mp3",
+                "sha1": "02ab0b995c0dab0d7edf8d5e26157a1b275f3da3",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=129s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    129.29,
+                    130.02
+                ]
+            }
+        ],
+        "l": [
+            {
+                "word": "follow",
+                "file": "words/l/follow.mp3",
+                "sha1": "c806506171331ae78f3da40e2fa6750bbbef597f",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=176s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    176.08,
+                    177.09
+                ]
+            },
+            {
+                "word": "lie",
+                "file": "words/l/lie.mp3",
+                "sha1": "0ce28fca758246efc7d2f4b1007d330f811f75e3",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=177s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    177.62,
+                    178.7
+                ]
+            },
+            {
+                "word": "feel",
+                "file": "words/l/feel.mp3",
+                "sha1": "67ec6bede1da26b94a98dbcc9acd1b6bf7abb083",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=179s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    179.14,
+                    180.19
+                ]
+            }
+        ],
+        "w": [
+            {
+                "word": "quiet",
+                "file": "words/w/quiet.mp3",
+                "sha1": "9b286a0985261feeb300700c33883bf3333e6a5a",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=184s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    184.11,
+                    185.04
+                ]
+            },
+            {
+                "word": "will",
+                "file": "words/w/will.mp3",
+                "sha1": "a5d4712fabcde861b439de77953b808efcadfe50",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=185s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    185.62,
+                    186.5
+                ]
+            },
+            {
+                "word": "one",
+                "file": "words/w/one.mp3",
+                "sha1": "5b2ed34decb39ebec19a95e17ccaef468325d4d3",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=187s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    187.33,
+                    188.19
+                ]
+            }
+        ],
+        "y": [
+            {
+                "word": "yummy",
+                "file": "words/y/yummy.mp3",
+                "sha1": "a3d9c0f92f13337556af77e6ee7a3d5e7d4f6a2c",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=141s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    141.49,
+                    142.29
+                ]
+            },
+            {
+                "word": "yes",
+                "file": "words/y/yes.mp3",
+                "sha1": "6a0c555db62b35a7eeff2f9a5eda97c9d58fe2f6",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=142s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    142.74,
+                    143.9
+                ]
+            },
+            {
+                "word": "music",
+                "file": "words/y/music.mp3",
+                "sha1": "7aeb6275727cb1a82f540c85a1b5830e59e31932",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=144s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    144.22,
+                    145.33
+                ]
+            }
+        ],
+        "th": [
+            {
+                "word": "thanks",
+                "file": "words/th/thanks.mp3",
+                "sha1": "e1abafedba72367b22a239c6204f9b5f9d4e4e6e",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=66s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    66.09,
+                    67.12
+                ]
+            },
+            {
+                "word": "filthy",
+                "file": "words/th/filthy.mp3",
+                "sha1": "0569da404d446d1ad618f5ff1fef9327d5d55136",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=67s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    67.55,
+                    68.42
+                ]
+            },
+            {
+                "word": "with",
+                "file": "words/th/with.mp3",
+                "sha1": "b82c62f838a286821bec5806d49e4a76399b45e0",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=69s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    69.03,
+                    69.87
+                ]
+            }
+        ],
+        "dh": [
+            {
+                "word": "bother",
+                "file": "words/dh/bother.mp3",
+                "sha1": "248a2229dfcd00c0010b09c724d0492908d74f8d",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=73s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    73.49,
+                    74.41
+                ]
+            },
+            {
+                "word": "this",
+                "file": "words/dh/this.mp3",
+                "sha1": "e26e6d94e1fc71b257c024fdb3da3395b0f58e5d",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=75s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    75.02,
+                    76.17
+                ]
+            },
+            {
+                "word": "bathe",
+                "file": "words/dh/bathe.mp3",
+                "sha1": "f1dde5170d54d1e512f93fcf5d1c434d3bda15ad",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=76s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    76.51,
+                    77.55
+                ]
+            }
+        ],
+        "sh": [
+            {
+                "word": "polish",
+                "file": "words/sh/polish.mp3",
+                "sha1": "012d3aaa3d8245bdf73f09881ba5228768f1beab",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=96s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    96.13,
+                    97.24
+                ]
+            },
+            {
+                "word": "ocean",
+                "file": "words/sh/ocean.mp3",
+                "sha1": "2b0edf2e12d2141a6a6592a4473fa3342a2187fe",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=97s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    97.71,
+                    98.59
+                ]
+            },
+            {
+                "word": "issue",
+                "file": "words/sh/issue.mp3",
+                "sha1": "ffb91fe43116fbed99c56dcc186b67eedf788198",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=99s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    99.07,
+                    99.86
+                ]
+            }
+        ],
+        "zh": [
+            {
+                "word": "beige",
+                "file": "words/zh/beige.mp3",
+                "sha1": "94e65d931df80d127d15b25140d22470e4cba4c6",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=103s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    103.76,
+                    104.73
+                ]
+            },
+            {
+                "word": "vision",
+                "file": "words/zh/vision.mp3",
+                "sha1": "46f388235788834721ce782805e7e8217fed3d05",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=105s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    105.06,
+                    106.17
+                ]
+            },
+            {
+                "word": "azure",
+                "file": "words/zh/azure.mp3",
+                "sha1": "e104bdce3f31b8711a95a39df3f784c4ba4bd0c8",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=106s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    106.63,
+                    107.51
+                ]
+            }
+        ],
+        "ch": [
+            {
+                "word": "chase",
+                "file": "words/ch/chase.mp3",
+                "sha1": "6d776ff47adab86928b7a5b59090c36c03517350",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=111s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    111.48,
+                    112.55
+                ]
+            },
+            {
+                "word": "March",
+                "file": "words/ch/march.mp3",
+                "sha1": "09e2586f50821f08424275be94fea4ef45d77ae9",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=113s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    113.06,
+                    114.07
+                ]
+            },
+            {
+                "word": "chapter",
+                "file": "words/ch/chapter.mp3",
+                "sha1": "48417457efbb8aa14d1f709f4be945dfb582de42",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=114s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    114.57,
+                    115.52
+                ]
+            }
+        ],
+        "jh": [
+            {
+                "word": "joy",
+                "file": "words/jh/joy.mp3",
+                "sha1": "cf6853d650fa1adf13da812c6eb80131bbe73400",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=119s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    119.01,
+                    119.89
+                ]
+            },
+            {
+                "word": "grudge",
+                "file": "words/jh/grudge.mp3",
+                "sha1": "c580ff61ab1782b422f735d6eb535a194abd7ca5",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=120s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    120.49,
+                    121.49
+                ]
+            },
+            {
+                "word": "change",
+                "file": "words/jh/change.mp3",
+                "sha1": "bf39b608e576edb62c5e7c91f9f0f022d66013da",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=122s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    122.03,
+                    123.03
+                ]
+            }
+        ],
+        "r": [
+            {
+                "word": "wrong",
+                "file": "words/r/wrong.mp3",
+                "sha1": "d883b757714e8080ae67e4482174dcfda4bde6d9",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=134s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    134.12,
+                    135.22
+                ]
+            },
+            {
+                "word": "operate",
+                "file": "words/r/operate.mp3",
+                "sha1": "26c568935b953eadbe4bb078e4671cf723186b2e",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=135s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    135.83,
+                    136.88
+                ]
+            },
+            {
+                "word": "ear",
+                "file": "words/r/ear.mp3",
+                "sha1": "6c425293594ef4dae0a5293282a1d4f2a6eed892",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=137s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    137.47,
+                    138.21
+                ]
+            }
+        ],
+        "ng": [
+            {
+                "word": "ring",
+                "file": "words/ng/ring.mp3",
+                "sha1": "005c0635c5a795c5c63c5f2c2ca222a4bb426425",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=167s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    167.12,
+                    168.11
+                ]
+            },
+            {
+                "word": "thanks",
+                "file": "words/ng/thanks.mp3",
+                "sha1": "3739b524bfb6853c2c10b6599bcfae47dcf820fb",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=168s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    168.53,
+                    169.73
+                ]
+            },
+            {
+                "word": "anger",
+                "file": "words/ng/anger.mp3",
+                "sha1": "c495bad7b1524bdc97c318dc6ea3017adb8aff10",
+                "source": "youtube-YG1-7V2rlZQ",
+                "title": "Learn IPA - American English - Consonants",
+                "url": "https://www.youtube.com/watch?v=YG1-7V2rlZQ&t=170s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    170.23,
+                    171.1
+                ]
+            }
+        ],
+        "ih": [
+            {
+                "word": "him",
+                "file": "words/ih/him.mp3",
+                "sha1": "12491b41e109dd2d8fdacb5dd36c3af59f8e130c",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=46s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    46.88,
+                    47.7
+                ]
+            },
+            {
+                "word": "been",
+                "file": "words/ih/been.mp3",
+                "sha1": "4ddfac9b23d5798696b095899786537f0747673a",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=48s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    48.86,
+                    49.9
+                ]
+            },
+            {
+                "word": "women",
+                "file": "words/ih/women.mp3",
+                "sha1": "0acdff96fe3a1bf43326258802ddd3fb9ebf5df7",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=51s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    51.03,
+                    52.03
+                ]
+            }
+        ],
+        "iy": [
+            {
+                "word": "heat",
+                "file": "words/iy/heat.mp3",
+                "sha1": "cf8aed5893fdc4870a91cbb5e1b5ad6f23dba29a",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=36s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    36.64,
+                    37.75
+                ]
+            },
+            {
+                "word": "be",
+                "file": "words/iy/be.mp3",
+                "sha1": "f0522e46d85bdb7464d315a5f30568847b945bb9",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=38s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    38.74,
+                    39.49
+                ]
+            },
+            {
+                "word": "receive",
+                "file": "words/iy/receive.mp3",
+                "sha1": "4e6afb27b44a022287533529f650f3fa2670047e",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=40s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    40.35,
+                    41.9
+                ]
+            }
+        ],
+        "eh": [
+            {
+                "word": "said",
+                "file": "words/eh/said.mp3",
+                "sha1": "ae99c7ab6b096c1961b44f354925a9d83109c6b4",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=26s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    26.38,
+                    27.34
+                ]
+            },
+            {
+                "word": "head",
+                "file": "words/eh/head.mp3",
+                "sha1": "2fef93e163bd6e8dfcbf768a23e7318f084fdcf7",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=28s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    28.44,
+                    29.26
+                ]
+            },
+            {
+                "word": "says",
+                "file": "words/eh/says.mp3",
+                "sha1": "c3da88658b7f1d84aaef500190654a36e094cf57",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=30s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    30.44,
+                    31.5
+                ]
+            }
+        ],
+        "ae": [
+            {
+                "word": "have",
+                "file": "words/ae/have.mp3",
+                "sha1": "96fda75e3be23f3b6c57f0bcf4d8d73491713d35",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=58s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    58.24,
+                    59.56
+                ]
+            },
+            {
+                "word": "bad",
+                "file": "words/ae/bad.mp3",
+                "sha1": "cbab874ef5b35b7313efd8bfff87457cd0000ca9",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=60s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    60.04,
+                    61.28
+                ]
+            },
+            {
+                "word": "act",
+                "file": "words/ae/act.mp3",
+                "sha1": "f30723eb209261a929a2655ff22b6b2c301d1c35",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=62s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    62.38,
+                    63.3
+                ]
+            }
+        ],
+        "ah": [
+            {
+                "word": "love",
+                "file": "words/ah/love.mp3",
+                "sha1": "9e1115a8e9594cb9f9dac11007bdfd4456cff265",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=67s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    67.4,
+                    68.33
+                ]
+            },
+            {
+                "word": "blood",
+                "file": "words/ah/blood.mp3",
+                "sha1": "c77ce9a19ae56dee994c264cf14d2416a7ead46a",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=69s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    69.07,
+                    70.11
+                ]
+            },
+            {
+                "word": "trouble",
+                "file": "words/ah/trouble.mp3",
+                "sha1": "73fcb388e12bba3b358748fb1cc34f1e3899b843",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=70s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    70.9,
+                    71.96
+                ]
+            }
+        ],
+        "aa": [
+            {
+                "word": "father",
+                "file": "words/aa/father.mp3",
+                "sha1": "5d0f0dbdff497524c3a9f4912f7523e8bf168458",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=7s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    7.74,
+                    8.73
+                ]
+            },
+            {
+                "word": "hot",
+                "file": "words/aa/hot.mp3",
+                "sha1": "ff69129645eac2c68a30882cd7ab63fa08f1eacf",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=9s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    9.52,
+                    10.33
+                ]
+            },
+            {
+                "word": "body",
+                "file": "words/aa/body.mp3",
+                "sha1": "ceb3122305c565d0b22644bdccc756242c821070",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=11s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    11.29,
+                    12.02
+                ]
+            }
+        ],
+        "ao": [
+            {
+                "word": "law",
+                "file": "words/ao/law.mp3",
+                "sha1": "d1d64f8faa27d208db313b02f0ec2acc700c89e8",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=16s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    16.4,
+                    17.36
+                ]
+            },
+            {
+                "word": "daughter",
+                "file": "words/ao/daughter.mp3",
+                "sha1": "861ce667d29d897eabc0eb03c6740cd052b33c6d",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=18s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    18.56,
+                    19.45
+                ]
+            },
+            {
+                "word": "caught",
+                "file": "words/ao/caught.mp3",
+                "sha1": "377005c0752e691c7dc9d8bbb88f5d2e3f91e417",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=20s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    20.8,
+                    21.66
+                ]
+            }
+        ],
+        "uh": [
+            {
+                "word": "book",
+                "file": "words/uh/book.mp3",
+                "sha1": "e7858120781772b48bd620a02090dea039eae4a1",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=84s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    84.96,
+                    85.84
+                ]
+            },
+            {
+                "word": "could",
+                "file": "words/uh/could.mp3",
+                "sha1": "3e520835c24b0e41d822e6ad5eb6a7a9fcf6672c",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=87s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    87.31,
+                    88.16
+                ]
+            },
+            {
+                "word": "pull",
+                "file": "words/uh/pull.mp3",
+                "sha1": "f4a931978c38237424cdb543d4bb8e264d071f13",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=89s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    89.48,
+                    90.3
+                ]
+            }
+        ],
+        "uw": [
+            {
+                "word": "through",
+                "file": "words/uw/through.mp3",
+                "sha1": "5e19ab442254064f1a914801126ffae10c794406",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=105s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    105.53,
+                    106.63
+                ]
+            },
+            {
+                "word": "blue",
+                "file": "words/uw/blue.mp3",
+                "sha1": "a0e55953b3d20d84ef27b8ad1cc7c3412e847374",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=107s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    107.52,
+                    108.4
+                ]
+            },
+            {
+                "word": "do",
+                "file": "words/uw/do.mp3",
+                "sha1": "08da8c96e48629ee32e7793e48c0d56b754e8cfd",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=109s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    109.42,
+                    110.2
+                ]
+            }
+        ],
+        "ax": [
+            {
+                "word": "sofa",
+                "file": "words/ax/sofa.mp3",
+                "sha1": "663a34f3ced32f0012aae9c4c47c3107965c8d98",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=77s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    77.53,
+                    78.51
+                ]
+            },
+            {
+                "word": "about",
+                "file": "words/ax/about.mp3",
+                "sha1": "e4740fdcc719c6901702aeece0b8ec90f52b09b5",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=79s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    79.42,
+                    80.37
+                ]
+            }
+        ],
+        "er": [
+            {
+                "word": "burn",
+                "file": "words/er/burn.mp3",
+                "sha1": "e3058965792f0cd00f435d2c74ea9da86979027a",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=95s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    95.85,
+                    96.88
+                ]
+            },
+            {
+                "word": "journey",
+                "file": "words/er/journey.mp3",
+                "sha1": "6fb7788be219d9cd1e1ceba2be24e456da19f2f9",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=97s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    97.94,
+                    99.03
+                ]
+            },
+            {
+                "word": "worth",
+                "file": "words/er/worth.mp3",
+                "sha1": "c862010d0dec436bcb8096968fa003ba2480a124",
+                "source": "youtube-vzaY6tkqhjg",
+                "title": "Learn IPA - American English - Vowels",
+                "url": "https://www.youtube.com/watch?v=vzaY6tkqhjg&t=100s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    100.4,
+                    101.22
+                ]
+            }
+        ],
+        "ey": [
+            {
+                "word": "fade",
+                "file": "words/ey/fade.mp3",
+                "sha1": "5eb35da67bbcbf9d6c396b81dc87f8c3edece0e1",
+                "source": "youtube-65lGhp4IKug",
+                "title": "Learn IPA - American English - Diphthongs",
+                "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=47s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    47.62,
+                    48.57
+                ]
+            },
+            {
+                "word": "maid",
+                "file": "words/ey/maid.mp3",
+                "sha1": "df72fd36d4333baa603d610b02df7d4ac9685732",
+                "source": "youtube-65lGhp4IKug",
+                "title": "Learn IPA - American English - Diphthongs",
+                "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=49s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    49.68,
+                    50.76
+                ]
+            },
+            {
+                "word": "gauge",
+                "file": "words/ey/gauge.mp3",
+                "sha1": "d7e367d433b448c44b2e940c8008908f72a72fa4",
+                "source": "youtube-65lGhp4IKug",
+                "title": "Learn IPA - American English - Diphthongs",
+                "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=51s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    51.83,
+                    52.83
+                ]
+            }
+        ],
+        "ay": [
+            {
+                "word": "my",
+                "file": "words/ay/my.mp3",
+                "sha1": "d96356adf68941ca5e6ee3f17c76958a9c6a2631",
+                "source": "youtube-65lGhp4IKug",
+                "title": "Learn IPA - American English - Diphthongs",
+                "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=37s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    37.06,
+                    37.96
+                ]
+            },
+            {
+                "word": "height",
+                "file": "words/ay/height.mp3",
+                "sha1": "6b98e985a3f9bf438aff033f8c6c867539ff4ae9",
+                "source": "youtube-65lGhp4IKug",
+                "title": "Learn IPA - American English - Diphthongs",
+                "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=39s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    39.14,
+                    39.89
+                ]
+            },
+            {
+                "word": "buy",
+                "file": "words/ay/buy.mp3",
+                "sha1": "9fce9251b27a8256ea59d7bc035a4daf2ad93847",
+                "source": "youtube-65lGhp4IKug",
+                "title": "Learn IPA - American English - Diphthongs",
+                "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=41s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    41.17,
+                    42.08
+                ]
+            }
+        ],
+        "oy": [
+            {
+                "word": "toy",
+                "file": "words/oy/toy.mp3",
+                "sha1": "11471ce2239489d798e5e31c32b9ed2c8167ce7d",
+                "source": "youtube-65lGhp4IKug",
+                "title": "Learn IPA - American English - Diphthongs",
+                "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=26s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    26.6,
+                    27.35
+                ]
+            },
+            {
+                "word": "moist",
+                "file": "words/oy/moist.mp3",
+                "sha1": "9bfc18f844e8ef19bc0f2d94b371b31abb6cd846",
+                "source": "youtube-65lGhp4IKug",
+                "title": "Learn IPA - American English - Diphthongs",
+                "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=28s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    28.4,
+                    29.59
+                ]
+            },
+            {
+                "word": "joy",
+                "file": "words/oy/joy.mp3",
+                "sha1": "a023716e5878e82e95fff00588353fc596e3263a",
+                "source": "youtube-65lGhp4IKug",
+                "title": "Learn IPA - American English - Diphthongs",
+                "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=30s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    30.48,
+                    31.4
+                ]
+            }
+        ],
+        "aw": [
+            {
+                "word": "town",
+                "file": "words/aw/town.mp3",
+                "sha1": "1e6a946156a1b1de3b19fa40e74119347c7e6d46",
+                "source": "youtube-65lGhp4IKug",
+                "title": "Learn IPA - American English - Diphthongs",
+                "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=8s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    8.49,
+                    9.42
+                ]
+            },
+            {
+                "word": "round",
+                "file": "words/aw/round.mp3",
+                "sha1": "d8311476f7c9e0e072854c91d71b6202ec46f8cb",
+                "source": "youtube-65lGhp4IKug",
+                "title": "Learn IPA - American English - Diphthongs",
+                "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=10s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    10.25,
+                    11.34
+                ]
+            },
+            {
+                "word": "bough",
+                "file": "words/aw/bough.mp3",
+                "sha1": "8ae5e54468763e3fc135e496476b75c3ec06c577",
+                "source": "youtube-65lGhp4IKug",
+                "title": "Learn IPA - American English - Diphthongs",
+                "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=12s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    12.29,
+                    12.98
+                ]
+            }
+        ],
+        "ow": [
+            {
+                "word": "though",
+                "file": "words/ow/though.mp3",
+                "sha1": "415dfef7b48fe11129ea58bdde720111b752b97e",
+                "source": "youtube-65lGhp4IKug",
+                "title": "Learn IPA - American English - Diphthongs",
+                "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=16s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    16.7,
+                    17.64
+                ]
+            },
+            {
+                "word": "no",
+                "file": "words/ow/no.mp3",
+                "sha1": "edfc63c1ff4ccffadc72fe3cde59c54b4fd66808",
+                "source": "youtube-65lGhp4IKug",
+                "title": "Learn IPA - American English - Diphthongs",
+                "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=18s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    18.57,
+                    19.48
+                ]
+            },
+            {
+                "word": "show",
+                "file": "words/ow/show.mp3",
+                "sha1": "5bebe6c8ddd5c85758608f5b072d253b514975fc",
+                "source": "youtube-65lGhp4IKug",
+                "title": "Learn IPA - American English - Diphthongs",
+                "url": "https://www.youtube.com/watch?v=65lGhp4IKug&t=20s",
+                "author": "Elise Linh learn English",
+                "author_url": "https://www.youtube.com/@EliselinhLL",
+                "license": "CC BY 3.0",
+                "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                "verified": false,
+                "retrieved_at": "2026-11-12",
+                "segment": [
+                    20.61,
+                    21.55
+                ]
+            }
+        ]
     }
 }

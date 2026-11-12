@@ -76,5 +76,231 @@
             "to": 130.34,
             "label": "[ɜ] in the Vowel Review, 2:09"
         }
+    ],
+    "words": [
+        {
+            "sound": "ih",
+            "word": "him",
+            "from": 46.88,
+            "to": 47.7,
+            "label": "\"him\", first word under [ɪ], 0:46"
+        },
+        {
+            "sound": "ih",
+            "word": "been",
+            "from": 48.86,
+            "to": 49.9,
+            "label": "\"been\", second word under [ɪ], 0:48"
+        },
+        {
+            "sound": "ih",
+            "word": "women",
+            "from": 51.03,
+            "to": 52.03,
+            "label": "\"women\", third word under [ɪ], 0:51"
+        },
+        {
+            "sound": "iy",
+            "word": "heat",
+            "from": 36.64,
+            "to": 37.75,
+            "label": "\"heat\", first word under [i], 0:36"
+        },
+        {
+            "sound": "iy",
+            "word": "be",
+            "from": 38.74,
+            "to": 39.49,
+            "label": "\"be\", second word under [i], 0:38"
+        },
+        {
+            "sound": "iy",
+            "word": "receive",
+            "from": 40.35,
+            "to": 41.9,
+            "label": "\"receive\", third word under [i], 0:40"
+        },
+        {
+            "sound": "eh",
+            "word": "said",
+            "from": 26.38,
+            "to": 27.34,
+            "label": "\"said\", first word under [ɛ], 0:26"
+        },
+        {
+            "sound": "eh",
+            "word": "head",
+            "from": 28.44,
+            "to": 29.26,
+            "label": "\"head\", second word under [ɛ], 0:28"
+        },
+        {
+            "sound": "eh",
+            "word": "says",
+            "from": 30.44,
+            "to": 31.5,
+            "label": "\"says\", third word under [ɛ], 0:30"
+        },
+        {
+            "sound": "ae",
+            "word": "have",
+            "from": 58.24,
+            "to": 59.56,
+            "label": "\"have\", first word under [æ], 0:58"
+        },
+        {
+            "sound": "ae",
+            "word": "bad",
+            "from": 60.04,
+            "to": 61.28,
+            "label": "\"bad\", second word under [æ], 1:00"
+        },
+        {
+            "sound": "ae",
+            "word": "act",
+            "from": 62.38,
+            "to": 63.3,
+            "label": "\"act\", third word under [æ], 1:02"
+        },
+        {
+            "sound": "ah",
+            "word": "love",
+            "from": 67.4,
+            "to": 68.33,
+            "label": "\"love\", first word under [ʌ], 1:07"
+        },
+        {
+            "sound": "ah",
+            "word": "blood",
+            "from": 69.07,
+            "to": 70.11,
+            "label": "\"blood\", second word under [ʌ], 1:09"
+        },
+        {
+            "sound": "ah",
+            "word": "trouble",
+            "from": 70.9,
+            "to": 71.96,
+            "label": "\"trouble\", third word under [ʌ], 1:11"
+        },
+        {
+            "sound": "aa",
+            "word": "father",
+            "from": 7.74,
+            "to": 8.73,
+            "label": "\"father\", first word under [ɑ], 0:07"
+        },
+        {
+            "sound": "aa",
+            "word": "hot",
+            "from": 9.52,
+            "to": 10.33,
+            "label": "\"hot\", second word under [ɑ], 0:09"
+        },
+        {
+            "sound": "aa",
+            "word": "body",
+            "from": 11.29,
+            "to": 12.02,
+            "label": "\"body\", third word under [ɑ], 0:11"
+        },
+        {
+            "sound": "ao",
+            "word": "law",
+            "from": 16.4,
+            "to": 17.36,
+            "label": "\"law\", first word under [ɔ], 0:16"
+        },
+        {
+            "sound": "ao",
+            "word": "daughter",
+            "from": 18.56,
+            "to": 19.45,
+            "label": "\"daughter\", second word under [ɔ], 0:18"
+        },
+        {
+            "sound": "ao",
+            "word": "caught",
+            "from": 20.8,
+            "to": 21.66,
+            "label": "\"caught\", third word under [ɔ], 0:20"
+        },
+        {
+            "sound": "uh",
+            "word": "book",
+            "from": 84.96,
+            "to": 85.84,
+            "label": "\"book\", first word under [ʊ], 1:25"
+        },
+        {
+            "sound": "uh",
+            "word": "could",
+            "from": 87.31,
+            "to": 88.16,
+            "label": "\"could\", second word under [ʊ], 1:27"
+        },
+        {
+            "sound": "uh",
+            "word": "pull",
+            "from": 89.48,
+            "to": 90.3,
+            "label": "\"pull\", third word under [ʊ], 1:29"
+        },
+        {
+            "sound": "uw",
+            "word": "through",
+            "from": 105.53,
+            "to": 106.63,
+            "label": "\"through\", first word under [u], 1:45"
+        },
+        {
+            "sound": "uw",
+            "word": "blue",
+            "from": 107.52,
+            "to": 108.4,
+            "label": "\"blue\", second word under [u], 1:47"
+        },
+        {
+            "sound": "uw",
+            "word": "do",
+            "from": 109.42,
+            "to": 110.2,
+            "label": "\"do\", third word under [u], 1:49"
+        },
+        {
+            "sound": "ax",
+            "word": "sofa",
+            "from": 77.53,
+            "to": 78.51,
+            "label": "\"sofa\", first word under [ə], 1:17"
+        },
+        {
+            "sound": "ax",
+            "word": "about",
+            "from": 79.42,
+            "to": 80.37,
+            "label": "\"about\", second word under [ə], 1:19"
+        },
+        {
+            "sound": "er",
+            "word": "burn",
+            "from": 95.85,
+            "to": 96.88,
+            "label": "\"burn\", first word under [ɜ], 1:35"
+        },
+        {
+            "sound": "er",
+            "word": "journey",
+            "from": 97.94,
+            "to": 99.03,
+            "label": "\"journey\", second word under [ɜ], 1:38"
+        },
+        {
+            "sound": "er",
+            "word": "worth",
+            "from": 100.4,
+            "to": 101.22,
+            "label": "\"worth\", third word under [ɜ], 1:40"
+        }
     ]
 }

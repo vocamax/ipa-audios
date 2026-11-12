@@ -1,0 +1,151 @@
+{
+    "kind": "youtube",
+    "url": "https://www.youtube.com/watch?v=65lGhp4IKug",
+    "title": "Learn IPA - American English - Diphthongs",
+    "author": "Elise Linh learn English",
+    "author_url": "https://www.youtube.com/@EliselinhLL",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "verified": false,
+    "notes": "Six diphthongs (aʊ oʊ ɔɪ aɪ eɪ ju): each is said alone when its symbol appears, then in three words; the \"Diphthong Review\" (1:06–1:17, on a title card) says all six again in one take, in near-digital silence. The five clips come from the review; [ju] is not one of the 40 sounds. Same speaker and series as sources/youtube-vzaY6tkqhjg.json; the channel's consonant video has another speaker — confirm that the uploader owns the recording before relying on the CC BY label.",
+    "retrieved_at": "2026-11-12",
+    "clips": [
+        {
+            "sound": "ey",
+            "from": 74.6,
+            "to": 75.53,
+            "label": "[eɪ] highlighted in the Diphthong Review, 1:14"
+        },
+        {
+            "sound": "ay",
+            "from": 72.39,
+            "to": 73.3,
+            "label": "[aɪ] highlighted in the Diphthong Review, 1:12"
+        },
+        {
+            "sound": "oy",
+            "from": 70.32,
+            "to": 71.28,
+            "label": "[ɔɪ] highlighted in the Diphthong Review, 1:10"
+        },
+        {
+            "sound": "aw",
+            "from": 65.93,
+            "to": 66.86,
+            "label": "[aʊ] highlighted in the Diphthong Review, 1:06"
+        },
+        {
+            "sound": "ow",
+            "from": 68.17,
+            "to": 69.09,
+            "label": "[oʊ] highlighted in the Diphthong Review, 1:08"
+        }
+    ],
+    "words": [
+        {
+            "sound": "ey",
+            "word": "fade",
+            "from": 47.62,
+            "to": 48.57,
+            "label": "\"fade\", first word under [eɪ], 0:47"
+        },
+        {
+            "sound": "ey",
+            "word": "maid",
+            "from": 49.68,
+            "to": 50.76,
+            "label": "\"maid\", second word under [eɪ], 0:49"
+        },
+        {
+            "sound": "ey",
+            "word": "gauge",
+            "from": 51.83,
+            "to": 52.83,
+            "label": "\"gauge\", third word under [eɪ], 0:51"
+        },
+        {
+            "sound": "ay",
+            "word": "my",
+            "from": 37.06,
+            "to": 37.96,
+            "label": "\"my\", first word under [aɪ], 0:37"
+        },
+        {
+            "sound": "ay",
+            "word": "height",
+            "from": 39.14,
+            "to": 39.89,
+            "label": "\"height\", second word under [aɪ], 0:39"
+        },
+        {
+            "sound": "ay",
+            "word": "buy",
+            "from": 41.17,
+            "to": 42.08,
+            "label": "\"buy\", third word under [aɪ], 0:41"
+        },
+        {
+            "sound": "oy",
+            "word": "toy",
+            "from": 26.6,
+            "to": 27.35,
+            "label": "\"toy\", first word under [ɔɪ], 0:26"
+        },
+        {
+            "sound": "oy",
+            "word": "moist",
+            "from": 28.4,
+            "to": 29.59,
+            "label": "\"moist\", second word under [ɔɪ], 0:28"
+        },
+        {
+            "sound": "oy",
+            "word": "joy",
+            "from": 30.48,
+            "to": 31.4,
+            "label": "\"joy\", third word under [ɔɪ], 0:30"
+        },
+        {
+            "sound": "aw",
+            "word": "town",
+            "from": 8.49,
+            "to": 9.42,
+            "label": "\"town\", first word under [aʊ], 0:08"
+        },
+        {
+            "sound": "aw",
+            "word": "round",
+            "from": 10.25,
+            "to": 11.34,
+            "label": "\"round\", second word under [aʊ], 0:10"
+        },
+        {
+            "sound": "aw",
+            "word": "bough",
+            "from": 12.29,
+            "to": 12.98,
+            "label": "\"bough\", third word under [aʊ], 0:12"
+        },
+        {
+            "sound": "ow",
+            "word": "though",
+            "from": 16.7,
+            "to": 17.64,
+            "label": "\"though\", first word under [oʊ], 0:16"
+        },
+        {
+            "sound": "ow",
+            "word": "no",
+            "from": 18.57,
+            "to": 19.48,
+            "label": "\"no\", second word under [oʊ], 0:18"
+        },
+        {
+            "sound": "ow",
+            "word": "show",
+            "from": 20.61,
+            "to": 21.55,
+            "label": "\"show\", third word under [oʊ], 0:20"
+        }
+    ]
+}
